@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="271dp" android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+    <!--Background Profile-->
+    <ImageView
+        android:id="@+id/img_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_bg_profile"
+        />
+
+    <!--Button Back Profile-->
+    <ImageButton
+        android:id="@+id/btnBack_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/ic_back_profile"
+        />
+
+    <!--Menu Profile 1-->
+    <ImageButton
+        android:id="@+id/btnAccount_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_profile"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/ic_account_profile"
+        android:onClick="akun"
+        />
+
+    <TextView
+        android:id="@+id/txtAccount_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_profile"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/btnAccount_profile"
+        android:layout_marginHorizontal="8dp"
+        android:text="Akun Saya"
+        android:textSize="14dp"
+        android:fontFamily="@font/pmedium"
+        />
+
+    <!--Button Hamburger Profile 2-->
+    <ImageButton
+        android:id="@+id/btnPromo_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAccount_profile"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/ic_promo_profile"
+        />
+
+    <TextView
+        android:id="@+id/txtPromo_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAccount_profile"
+        android:layout_marginTop="36dp"
+        android:layout_toEndOf="@id/btnPromo_profile"
+        android:layout_marginHorizontal="8dp"
+        android:text="Promo"
+        android:textSize="14dp"
+        android:fontFamily="@font/pmedium"
+        />
+
+    <!--Button Hamburger Profile 3-->
+    <ImageButton
+        android:id="@+id/btnMasukan_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPromo_profile"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/ic_masukan_profile"
+        />
+
+    <TextView
+        android:id="@+id/txtMasukan_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPromo_profile"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@id/btnMasukan_profile"
+        android:layout_marginHorizontal="8dp"
+        android:text="Beri Masukan"
+        android:textSize="14dp"
+        android:fontFamily="@font/pmedium"
+        />
+
+    <!--Button Hamburger Profile 4-->
+    <ImageButton
+        android:id="@+id/btnSetting_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnMasukan_profile"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/ic_setting_profile"
+        />
+
+    <TextView
+        android:id="@+id/txtSetting_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMasukan_profile"
+        android:layout_marginTop="36dp"
+        android:layout_toEndOf="@id/btnSetting_profile"
+        android:layout_marginHorizontal="8dp"
+        android:text="Pengaturan"
+        android:textSize="14dp"
+        android:fontFamily="@font/pmedium"
+        />
+
+    <!--Button Hamburger Profile 5-->
+    <ImageButton
+        android:id="@+id/btnExit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSetting_profile"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/ic_exit_profile"
+        />
+
+    <TextView
+        android:id="@+id/txtExit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSetting_profile"
+        android:layout_marginTop="35dp"
+        android:layout_toEndOf="@id/btnExit_profile"
+        android:layout_marginHorizontal="8dp"
+        android:text="Keluar Akun"
+        android:textSize="14dp"
+        android:fontFamily="@font/pmedium"
+        />
+
+</RelativeLayout>

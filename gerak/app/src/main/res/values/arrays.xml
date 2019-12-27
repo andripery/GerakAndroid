@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valueKeahlian">
+        <item>Keahlian yang dibutuhkan</item>
+        <item>Desain</item>
+        <item>Apapun</item>
+    </string-array>
+</resources>

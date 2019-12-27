@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+
+
+
+    <ImageView
+        android:id="@+id/img_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_background2_home"
+        />
+
+    <!--Button Hamburger Profile-->
+    <ImageButton
+        android:id="@+id/btnProfile_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/ic_hambuerger_home"
+        />
+
+    <!--Button Hamburger Profile-->
+    <ImageButton
+        android:id="@+id/btnNotif_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/icon_bell_home"
+        />
+
+    <!--Layout Dompet Gerak-->
+    <RelativeLayout
+        android:id="@+id/relativelayout2_home"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_dompetgerak_home"
+        />
+    <!-- Tutup Layout Dompet Gerak-->
+
+    <!--Menu Gerak Bagian Atas-->
+    <ImageButton
+        android:id="@+id/btnMakan_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativelayout2_home"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_makan_home"
+        />
+
+    <ImageButton
+        android:id="@+id/btnMotor_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_motor_home"
+        android:layout_below="@id/relativelayout2_home"
+        android:layout_marginTop="24dp"
+        android:layout_toStartOf="@id/btnMakan_home"
+        android:layout_marginEnd="48dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btnTitip_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_titip_home"
+        android:layout_below="@id/relativelayout2_home"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@id/btnMakan_home"
+        android:layout_marginHorizontal="56dp"
+        />
+
+    <TextView
+        android:id="@+id/txtMakan_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnMakan_home"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Makan"
+        android:textSize="12dp"
+        android:fontFamily="@font/psemibold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnMakan_home"
+        android:layout_marginTop="8dp"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/txtMakan_home"
+        android:layout_marginEnd="58.5dp"
+        android:text="Motor"
+        android:textSize="12dp"
+        android:fontFamily="@font/psemibold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnMakan_home"
+        android:layout_marginTop="8dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/txtMakan_home"
+        android:layout_marginHorizontal="63dp"
+        android:text="Titip"
+        android:textSize="12dp"
+        android:fontFamily="@font/psemibold"/>
+    <!--Tutup Menu Gerak Bagian Atas-->
+
+    <!--Menu Gerak Bagian Bawah-->
+    <ImageButton
+        android:id="@+id/btnBelanja_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMakan_home"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_belanja_home"
+        />
+
+    <ImageButton
+        android:id="@+id/btnMobil_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_mobile_home"
+        android:layout_below="@id/txtMakan_home"
+        android:layout_marginTop="32dp"
+        android:layout_toStartOf="@id/btnBelanja_home"
+        android:layout_marginEnd="56dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btnKeahlian_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_keahlian_home"
+        android:layout_below="@id/txtMakan_home"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@id/btnBelanja_home"
+        android:layout_marginHorizontal="56dp"
+        android:onClick="keahlian"
+        />
+
+    <TextView
+        android:id="@+id/txtBelanja_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBelanja_home"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Belanja"
+        android:textSize="12dp"
+        android:fontFamily="@font/psemibold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBelanja_home"
+        android:layout_marginTop="8dp"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/txtBelanja_home"
+        android:layout_marginEnd="58.5dp"
+        android:text="Mobil"
+        android:textSize="12dp"
+        android:fontFamily="@font/psemibold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBelanja_home"
+        android:layout_marginTop="8dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/txtBelanja_home"
+        android:layout_marginHorizontal="46dp"
+        android:text="Keahlian"
+        android:textSize="12dp"
+        android:fontFamily="@font/psemibold"/>
+    <!--Tutup Menu Gerak Bagian Bawah-->
+
+    <!--Promo-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtBelanja_home"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:text="Promo"
+        android:textSize="12dp"
+        android:fontFamily="@font/psemibold"
+        />
+    <ImageView
+        android:id="@+id/imgPromo_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_promo_home"
+        android:layout_below="@id/txtBelanja_home"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        />
+
+    <ImageView
+        android:id="@+id/imgPromo2_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_promo2_home"
+        android:layout_below="@id/txtBelanja_home"
+        android:layout_marginTop="41dp"
+        android:layout_toEndOf="@id/imgPromo_home"
+        android:layout_marginHorizontal="16dp"
+        />
+    <!--Tutup Promo-->
+
+    <!--Layout Navigasi-->
+    <RelativeLayout
+        android:id="@+id/relativelayout3_home"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_menu_bawah">
+
+        <ImageButton
+            android:id="@+id/btnChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_chat"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:onClick="pesan"
+            />
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_home"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_toStartOf="@id/btnChat"
+            android:layout_marginEnd="75dp"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_help"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/btnChat"
+            android:layout_marginHorizontal="75dp"
+            android:onClick="bantuan"
+            />
+
+        <TextView
+            android:id="@+id/txtChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnChat"
+            android:layout_marginTop="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Pesan"
+            android:textSize="12dp"
+            android:fontFamily="@font/pmedium"
+            android:textColor="#A5A5A5"
+            />
+
+        <TextView
+            android:id="@+id/txtHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnChat"
+            android:layout_marginTop="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/txtChat"
+            android:layout_marginEnd="59dp"
+            android:text="Home"
+            android:textSize="12dp"
+            android:fontFamily="@font/pbold"
+            android:textColor="#374E4E"
+            />
+
+        <TextView
+            android:id="@+id/txtHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnChat"
+            android:layout_marginTop="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/txtChat"
+            android:layout_marginHorizontal="51.5dp"
+            android:text="Bantuan"
+            android:textSize="12dp"
+            android:fontFamily="@font/pbold"
+            android:textColor="#A5A5A5"
+            />
+
+    </RelativeLayout>
+    <!--Tutup Layout Navigasi-->
+
+</RelativeLayout>

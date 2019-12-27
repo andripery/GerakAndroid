@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+    <ImageView
+        android:id="@+id/started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/ic_getstarted"
+        />
+
+    <TextView
+    android:id="@+id/txt1GetStarted"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/started"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="24dp"
+    android:text="Let's Start gerak"
+    android:textSize="18dp"
+    android:fontFamily="@font/psemibold"
+    />
+
+    <TextView
+        android:id="@+id/txt2GetStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1GetStarted"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Never a better time than now to start \nthinking about how you manage all your \njobs with ease"
+        android:textSize="12dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/pmedium"
+        />
+
+    <ImageView
+        android:id="@+id/started_slidericon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt2GetStarted"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/getstarted_slideicon"
+        />
+
+    <Button
+        android:id="@+id/btnLoginAccount_getstarted"
+        android:layout_width="304dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="Login to Account"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:textColor="#374E4E"
+        android:fontFamily="@font/pmedium"
+        android:background="@drawable/transparent"
+        />
+
+    <Button
+        android:id="@+id/btnCreateAccount_getstarted"
+        android:layout_width="304dp"
+        android:layout_height="49dp"
+        android:layout_above="@id/btnLoginAccount_getstarted"
+        android:background="@drawable/getstarted_bgbutton"
+        android:layout_marginBottom="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/pmedium"
+        android:onClick="createAccount"
+         />
+
+
+</RelativeLayout>

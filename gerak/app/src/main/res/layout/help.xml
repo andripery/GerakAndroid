@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+    <ImageButton
+        android:id="@+id/btnProfile_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/ic_hambuergerblack_home"
+        />
+
+    <ImageButton
+        android:id="@+id/btnSearch_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/ic_search_chat"
+        />
+
+
+    <!--Help 1 Layout-->
+    <TextView
+        android:id="@+id/txtJudul1_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="114dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:text="Pertanyaan yang sering diajukan"
+        android:textSize="14dp"
+        android:fontFamily="@font/psemibold"
+        android:textColor="#9C9B9E"
+        />
+
+    <RelativeLayout
+        android:id="@+id/relativelayout2_help"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtJudul1_help"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:background="@drawable/bg_help1_help">
+
+        <TextView
+            android:id="@+id/txtHelpAtas1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:text="Tidak bisa login"
+            android:textSize="12dp"
+            android:textColor="#FDBF50"
+            android:fontFamily="@font/pmedium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtHelpAtas1"
+            android:layout_marginTop="6dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Apakah akun kamu sudah terhubung \ndengan Google atau Facebook ?"
+            android:textSize="10dp"
+            android:fontFamily="@font/pmedium"
+            />
+    </RelativeLayout>
+    <!--Tutup Help 1 Layout-->
+
+    <!--Help 2 Layout-->
+    <TextView
+        android:id="@+id/txtJudul2_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativelayout2_help"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:text="Masalah pembayaran"
+        android:textSize="14dp"
+        android:fontFamily="@font/psemibold"
+        android:textColor="#9C9B9E"
+        />
+
+    <RelativeLayout
+        android:id="@+id/relativelayout3_help"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtJudul2_help"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:background="@drawable/bg_help1_help">
+
+        <TextView
+            android:id="@+id/txtHelpTengah1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:text="Tidak bisa bayar \ndengan dompet gerak"
+            android:textSize="12dp"
+            android:textColor="#FDBF50"
+            android:fontFamily="@font/pmedium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtHelpTengah1"
+            android:layout_marginTop="6dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Dompet Gerak tidak bisa melakukan pembayaran dengan baik dan benar."
+            android:textSize="10dp"
+            android:fontFamily="@font/pmedium"
+            />
+    </RelativeLayout>
+    <!--Tutup Help 2 Layout-->
+
+    <!--Help 2 Layout-->
+    <TextView
+        android:id="@+id/txtJudul3_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativelayout3_help"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:text="Lapor seputar freelancer"
+        android:textSize="14dp"
+        android:fontFamily="@font/psemibold"
+        android:textColor="#9C9B9E"
+        />
+
+    <RelativeLayout
+        android:id="@+id/relativelayout4_help"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtJudul3_help"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:background="@drawable/bg_help1_help">
+
+        <TextView
+            android:id="@+id/txtHelpBawah1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:text="Tidak bisa bayar \ndengan dompet gerak"
+            android:textSize="12dp"
+            android:textColor="#FDBF50"
+            android:fontFamily="@font/pmedium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtHelpBawah1"
+            android:layout_marginTop="6dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Dompet Gerak tidak bisa melakukan pembayaran dengan baik dan benar."
+            android:textSize="10dp"
+            android:fontFamily="@font/pmedium"
+            />
+    </RelativeLayout>
+    <!--Tutup Help 2 Layout-->
+
+
+    <!--Layout Navigasi-->
+    <RelativeLayout
+        android:id="@+id/relativelayout3_home"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_menu_bawah">
+
+        <ImageButton
+            android:id="@+id/btnChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_chat"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:onClick="pesan"
+            />
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_home_mute"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_toStartOf="@id/btnChat"
+            android:layout_marginEnd="75dp"
+            android:onClick="home"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_help_active"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/btnChat"
+            android:layout_marginHorizontal="75dp"
+            />
+
+        <TextView
+            android:id="@+id/txtChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnChat"
+            android:layout_marginTop="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Pesan"
+            android:textSize="12dp"
+            android:fontFamily="@font/pmedium"
+            android:textColor="#A5A5A5"
+            />
+
+        <TextView
+            android:id="@+id/txtHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnChat"
+            android:layout_marginTop="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/txtChat"
+            android:layout_marginEnd="59dp"
+            android:text="Home"
+            android:textSize="12dp"
+            android:fontFamily="@font/pbold"
+            android:textColor="#A5A5A5"
+            />
+
+        <TextView
+            android:id="@+id/txtHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnChat"
+            android:layout_marginTop="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/txtChat"
+            android:layout_marginHorizontal="51.5dp"
+            android:text="Bantuan"
+            android:textSize="12dp"
+            android:fontFamily="@font/pbold"
+            android:textColor="#374E4E"
+            />
+
+    </RelativeLayout>
+    <!--Tutup Layout Navigasi-->
+
+</RelativeLayout>

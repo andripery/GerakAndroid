@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+    <ImageView
+        android:id="@+id/img_daftar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/ic_daftar1"
+        />
+
+    <TextView
+        android:id="@+id/txt1Daftar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_daftar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Registration"
+        android:textSize="18dp"
+        android:fontFamily="@font/psemibold"
+        />
+
+    <TextView
+        android:id="@+id/txt2Daftar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1Daftar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Enter your mobile number, we will approve \nyour number to verify now"
+        android:textSize="12dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/pmedium"
+        />
+
+    <Button
+        android:id="@+id/btnContinue_daftar1"
+        android:layout_width="304dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/pmedium"
+        android:background="@drawable/getstarted_bgbutton"
+        />
+
+    <EditText
+        android:id="@+id/tbNope"
+        android:layout_width="304dp"
+        android:layout_height="49dp"
+        android:layout_above="@id/btnContinue_daftar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edittext_daftar1"
+        android:hint="No Handphone"
+        android:paddingLeft="12dp"
+        android:textSize="16dp"
+        android:drawableLeft="@drawable/ic_benderadaftar1"
+        android:drawablePadding="12dp"
+
+        />
+
+</RelativeLayout>
