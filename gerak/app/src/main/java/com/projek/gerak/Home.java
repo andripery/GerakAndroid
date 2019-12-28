@@ -1,40 +1,84 @@
 package com.projek.gerak;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 public class Home extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.home);
+        setContentView(R.layout.activity_main);
 
-        ImageButton imageButton = (ImageButton) findViewById(R.id.btnProfile_home);
-        imageButton.setOnClickListener(new View.OnClickListener() {
+        final ImageButton home = (ImageButton) findViewById(R.id.btnHome);
+        final ImageButton pesan = (ImageButton) findViewById(R.id.btnChat);
+        final ImageButton bantuan = (ImageButton) findViewById(R.id.btnHelp);
+        final TextView tvHome = (TextView) findViewById(R.id.txtHome);
+        final TextView tvPesan = (TextView) findViewById(R.id.txtChat);
+        final TextView tvBantuan = (TextView) findViewById(R.id.txtHelp);
+
+        loadFragment(new FragmentHome());
+
+        home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                profile();
+                loadFragment(new FragmentHome());
+                tvHome.setTextColor(Color.parseColor("#374E4E"));
+                home.setBackgroundResource(R.drawable.ic_home);
+                tvPesan.setTextColor(Color.parseColor("#A5A5A5"));
+                pesan.setBackgroundResource(R.drawable.ic_chat);
+                tvBantuan.setTextColor(Color.parseColor("#A5A5A5"));
+                bantuan.setBackgroundResource(R.drawable.ic_help);
+            }
+        });
+
+        pesan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadFragment(new FragmentPesan());
+                tvHome.setTextColor(Color.parseColor("#A5A5A5"));
+                home.setBackgroundResource(R.drawable.ic_home_mute);
+                tvPesan.setTextColor(Color.parseColor("#374E4E"));
+                pesan.setBackgroundResource(R.drawable.ic_chat_active);
+                tvBantuan.setTextColor(Color.parseColor("#A5A5A5"));
+                bantuan.setBackgroundResource(R.drawable.ic_help);
+            }
+        });
+
+        bantuan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadFragment(new FragmentBantuan());
+                tvHome.setTextColor(Color.parseColor("#A5A5A5"));
+                home.setBackgroundResource(R.drawable.ic_home_mute);
+                tvPesan.setTextColor(Color.parseColor("#A5A5A5"));
+                pesan.setBackgroundResource(R.drawable.ic_chat);
+                tvBantuan.setTextColor(Color.parseColor("#374E4E"));
+                bantuan.setBackgroundResource(R.drawable.ic_help_active);
             }
         });
     }
 
-    private void profile(){
-        LayoutInflater inflater = LayoutInflater.from(this);
-        View subView = inflater.inflate(R.layout.profile,null);
-
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setView(subView);
-        builder.create();
-        builder.show();
+    private void loadFragment(Fragment fragment){
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.layout, fragment);
+        fragmentTransaction.commit();
     }
+
 
     public void keahlian(View view){
         Intent intent = new Intent(getApplicationContext(), Keahlian.class);
