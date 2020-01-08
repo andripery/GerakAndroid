@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/txtAccount_profile"
+            android:icon="@drawable/ic_account_profile"
+            android:title="Akun Saya" />
+        <item
+            android:id="@+id/txtPromo_profile"
+            android:icon="@drawable/ic_promo_profile"
+            android:title="Promo" />
+        <item
+            android:id="@+id/txtMasukan_profile"
+            android:icon="@drawable/ic_masukan_profile"
+            android:title="Beri Masukan" />
+        <item
+            android:id="@+id/txtSetting_profile"
+            android:icon="@drawable/ic_setting_profile"
+            android:title="Pengaturan" />
+        <item
+            android:id="@+id/txtExit_profile"
+            android:icon="@drawable/ic_exit_profile"
+            android:title="Keluar Akun" />
+    </group>
+
+</menu>

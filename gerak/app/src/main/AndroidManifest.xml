@@ -16,12 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Bantuan"/>
-        <activity android:name=".Daftar"/>
-        <activity android:name=".Home"/>
-        <activity android:name=".Keahlian"/>
-        <activity android:name=".Pesan"/>
-        <activity android:name=".Akun"/>
+        <activity android:name=".Bantuan" />
+        <activity android:name=".Daftar" />
+        <activity android:name=".Home" />
+        <activity android:name=".Keahlian" />
+        <activity android:name=".Pesan" />
+        <activity android:name=".Akun" />
     </application>
 
 </manifest>
