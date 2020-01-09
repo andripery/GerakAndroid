@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+    <!--Background Keahlian-->
+    <ImageView
+        android:id="@+id/img_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_bg_keahlian"
+        />
+
+    <!--Button Back Profile-->
+    <ImageButton
+        android:id="@+id/btnBack_keahlian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/ic_back_profile"
+        android:onClick="home"
+        />
+
+    <!--Layout Lokasi-->
+    <RelativeLayout
+        android:id="@+id/layout_lokasi_titip"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_help1_help"
+        >
+
+        <ImageView
+            android:id="@+id/imgLokasi_titip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/ic_lokasi_titip"
+            />
+
+        <EditText
+            android:id="@+id/tbLokasi_titip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="36.5dp"
+            android:layout_toEndOf="@id/imgLokasi_titip"
+            android:layout_marginLeft="8dp"
+            android:hint="Lokasi penerima"
+            android:textSize="16dp"
+            android:fontFamily="@font/pmedium"
+            />
+
+        <EditText
+            android:id="@+id/tbLokasiDetail_titip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tbLokasi_titip"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="36.5dp"
+            android:layout_toEndOf="@id/imgLokasi_titip"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="25dp"
+            android:hint=" + Detail lokasi"
+            android:textSize="16dp"
+            android:fontFamily="@font/preguler"
+            />
+
+    </RelativeLayout>
+    <!--Tutup Layout Lokasi-->
+
+    <!--Layout Penerima-->
+    <RelativeLayout
+        android:id="@+id/layoutPenerima_titip"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_lokasi_titip"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_help1_help"
+        >
+
+        <ImageView
+            android:id="@+id/imgPenerima_titip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/ic_namapenerima_titip"
+            />
+
+        <EditText
+            android:id="@+id/tbPenerima_titip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="36.5dp"
+            android:layout_toEndOf="@id/imgPenerima_titip"
+            android:layout_marginLeft="8dp"
+            android:hint="Nama penerima"
+            android:textSize="16dp"
+            android:fontFamily="@font/pmedium"
+            />
+
+        <ImageView
+            android:id="@+id/imgTelepon_titip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgPenerima_titip"
+            android:layout_marginTop="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/ic_telepon_titip"
+            />
+
+        <EditText
+            android:id="@+id/tbPenerimaTelepon_titip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tbPenerima_titip"
+            android:layout_marginTop="11dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="36.5dp"
+            android:layout_toEndOf="@id/imgTelepon_titip"
+            android:layout_marginLeft="8dp"
+            android:hint="Nomor telepon penerima"
+            android:textSize="16dp"
+            android:fontFamily="@font/pmedium"
+            android:layout_marginBottom="25dp"
+            />
+
+    </RelativeLayout>
+    <!--Tutup Layout penerima-->
+
+    <!--Layout Barang-->
+    <RelativeLayout
+        android:id="@+id/layout_barang_titip"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutPenerima_titip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_help1_help"
+        >
+
+        <ImageView
+            android:id="@+id/imgBarang_titip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/ic_barang_titip"
+            />
+
+        <EditText
+            android:id="@+id/tbDeskripsiBarang_titip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="36.5dp"
+            android:layout_toEndOf="@id/imgBarang_titip"
+            android:layout_marginLeft="8dp"
+            android:hint="Deskripsi barang (baju)"
+            android:textSize="16dp"
+            android:fontFamily="@font/pmedium"
+            android:layout_marginBottom="13dp"
+            />
+
+    </RelativeLayout>
+    <!--Tutup Layout Barang-->
+
+    <Button
+        android:id="@+id/btnBatal_titip"
+        android:layout_width="304dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="Batal"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:textColor="#374E4E"
+        android:fontFamily="@font/pmedium"
+        android:background="@drawable/transparent"
+        android:onClick="home"
+        />
+
+    <Button
+        android:id="@+id/btnPosting_titip"
+        android:layout_width="304dp"
+        android:layout_height="49dp"
+        android:layout_above="@id/btnBatal_titip"
+        android:background="@drawable/getstarted_bgbutton"
+        android:layout_marginBottom="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="Posting"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/pmedium"
+        />
+
+</RelativeLayout>

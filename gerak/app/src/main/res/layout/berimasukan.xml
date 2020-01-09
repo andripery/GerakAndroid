@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+    <!--Background Account-->
+    <ImageView
+        android:id="@+id/img_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_bg_keahlian"
+        />
+
+
+    <!--Button Back Profile-->
+    <ImageButton
+        android:id="@+id/btnBack_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/ic_back_profile"
+        android:onClick="home"
+        />
+
+    <!--Layout Judul-->
+    <RelativeLayout
+        android:id="@+id/layout_judul_keahlian"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="195dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_help1_help"
+        >
+
+        <TextView
+            android:id="@+id/txtBeriMasukan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:text="Tiap masukkan kamu sangat membantu. \nApa yang bisa kami buat lebih baik \nlagi untuk kamu?."
+            android:textColor="#636264"
+            android:fontFamily="@font/pmedium"
+            android:textSize="12dp"
+            />
+
+        <EditText
+            android:id="@+id/tbBeriMasukan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtBeriMasukan"
+            android:layout_marginTop="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp"
+            android:hint="Kasih tahu detailnya dong"
+            android:textSize="16dp"
+            android:fontFamily="@font/pmedium"
+            android:layout_marginBottom="24dp"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnKirim_berimasukan"
+        android:layout_width="304dp"
+        android:layout_height="49dp"
+        android:background="@drawable/getstarted_bgbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="Kirim"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/pmedium"
+        />
+
+</RelativeLayout>
