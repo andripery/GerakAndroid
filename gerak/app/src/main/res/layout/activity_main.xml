@@ -27,9 +27,10 @@
             android:layout_height="wrap_content"
             android:background="@drawable/ic_chat"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/btnHome"
+            android:layout_marginLeft="70dp"
             />
 
         <ImageButton
@@ -40,8 +41,8 @@
             android:layout_alignParentTop="true"
             android:layout_centerVertical="true"
             android:layout_marginTop="10dp"
-            android:layout_toStartOf="@id/btnChat"
-            android:layout_marginEnd="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="53dp"
             />
 
         <ImageButton
@@ -52,8 +53,20 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="10dp"
             android:layout_centerVertical="true"
-            android:layout_toEndOf="@id/btnChat"
-            android:layout_marginHorizontal="75dp"
+            android:layout_toStartOf="@id/btnAkun"
+            android:layout_marginRight="70dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btnAkun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_akun"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="53dp"
             />
 
         <TextView
@@ -62,7 +75,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/btnChat"
             android:layout_marginTop="2dp"
-            android:layout_centerHorizontal="true"
+            android:layout_toEndOf="@id/txtHome"
+            android:layout_marginLeft="53dp"
             android:layout_centerVertical="true"
             android:text="Pesan"
             android:textSize="12dp"
@@ -74,12 +88,11 @@
             android:id="@+id/txtHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/btnChat"
+            android:layout_below="@id/btnHome"
             android:layout_marginTop="2dp"
-            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_toStartOf="@id/txtChat"
-            android:layout_marginEnd="59dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="44dp"
             android:text="Home"
             android:textSize="12dp"
             android:fontFamily="@font/pbold"
@@ -90,13 +103,28 @@
             android:id="@+id/txtHelp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/btnChat"
+            android:layout_below="@id/btnHelp"
             android:layout_marginTop="2dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_toEndOf="@id/txtChat"
-            android:layout_marginHorizontal="51.5dp"
+            android:layout_toStartOf="@id/txtAkun"
+            android:layout_marginRight="48dp"
             android:text="Bantuan"
+            android:textSize="12dp"
+            android:fontFamily="@font/pbold"
+            android:textColor="#A5A5A5"
+            />
+
+        <TextView
+            android:id="@+id/txtAkun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnAkun"
+            android:layout_marginTop="2dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="47dp"
+            android:text="Akun"
             android:textSize="12dp"
             android:fontFamily="@font/pbold"
             android:textColor="#A5A5A5"

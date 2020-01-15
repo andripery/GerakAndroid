@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+    <EditText
+        android:id="@+id/tbNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="231dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Vera Kartika Kumala"
+        android:textColorHint="#323132"
+        android:textSize="21dp"
+        android:fontFamily="@font/psemibold"
+        />
+
+    <!--Menu Akun 1-->
+    <ImageView
+        android:id="@+id/g1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_garis_akun"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btnAccount_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/g1"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/ic_account_profile"
+        android:onClick="akun"
+        />
+
+    <TextView
+        android:id="@+id/txtAccount_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/g1"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@id/btnAccount_profile"
+        android:layout_marginHorizontal="8dp"
+        android:text="Akun Saya"
+        android:textSize="14dp"
+        android:fontFamily="@font/pmedium"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_panah_akun"
+        android:layout_below="@+id/g1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="26dp"
+        />
+
+    <!--Menu Akun 2-->
+    <ImageView
+        android:id="@+id/g2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_garis_akun"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/btnAccount_profile"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btnPromo_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/g2"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/ic_promo_profile"
+        />
+
+    <TextView
+        android:id="@+id/txtPromo_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/g2"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@id/btnAccount_profile"
+        android:layout_marginHorizontal="8dp"
+        android:text="Promo"
+        android:textSize="14dp"
+        android:fontFamily="@font/pmedium"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_panah_akun"
+        android:layout_below="@+id/g2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="26dp"
+        />
+
+    <!--Menu Akun 3-->
+    <ImageView
+        android:id="@+id/g3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_garis_akun"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/btnPromo_profile"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btnBeriMasukan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/g3"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/ic_masukan_profile"
+        />
+
+    <TextView
+        android:id="@+id/txtBeriMasukan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/g3"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@id/btnAccount_profile"
+        android:layout_marginHorizontal="8dp"
+        android:text="Beri Masukan"
+        android:textSize="14dp"
+        android:fontFamily="@font/pmedium"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_panah_akun"
+        android:layout_below="@+id/g3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="26dp"
+        />
+
+    <!--Menu Akun 4-->
+    <ImageView
+        android:id="@+id/g4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_garis_akun"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/btnBeriMasukan"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btnSetting_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/g4"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/ic_setting_profile"
+        />
+
+    <TextView
+        android:id="@+id/txtSetting_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/g4"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@id/btnAccount_profile"
+        android:layout_marginHorizontal="8dp"
+        android:text="Pengaturan"
+        android:textSize="14dp"
+        android:fontFamily="@font/pmedium"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_panah_akun"
+        android:layout_below="@+id/g4"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="26dp"
+        />
+
+    <!--Menu Akun 5-->
+    <ImageView
+        android:id="@+id/g5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_garis_akun"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/btnSetting_profile"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btnExit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/g5"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/ic_exit_profile"
+        />
+
+    <TextView
+        android:id="@+id/txtExit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/g5"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@id/btnAccount_profile"
+        android:layout_marginHorizontal="8dp"
+        android:text="Keluar"
+        android:textSize="14dp"
+        android:fontFamily="@font/pmedium"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_panah_akun"
+        android:layout_below="@+id/g5"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="26dp"
+        />
+
+    <ImageView
+        android:id="@+id/g6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_garis_akun"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/btnExit_profile"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        />
+
+</RelativeLayout>
