@@ -32,7 +32,7 @@
         android:layout_below="@+id/txt1Login"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
-        android:text="Enter your mobile number and \npassword then let's start gerak"
+        android:text="Enter your Email and \npassword then let's start gerak"
         android:textSize="12dp"
         android:textAlignment="center"
         android:fontFamily="@font/pmedium"
@@ -68,14 +68,14 @@
         />
 
     <EditText
-        android:id="@+id/tbNope"
+        android:id="@+id/tbEmail"
         android:layout_width="304dp"
         android:layout_height="49dp"
         android:layout_above="@id/tbPassword"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"
         android:background="@drawable/edittext_daftar1"
-        android:hint="No Handphone"
+        android:hint="Email"
         android:paddingLeft="12dp"
         android:textSize="16dp"
         />
