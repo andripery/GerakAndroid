@@ -17,11 +17,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".Bantuan" />
+        <activity android:name=".Login" />
         <activity android:name=".Daftar" />
         <activity android:name=".Home" />
         <activity android:name=".Keahlian" />
         <activity android:name=".Pesan" />
+        <activity android:name=".Belanja" />
+        <activity android:name=".Titip" />
         <activity android:name=".Akun" />
+        <activity android:name=".BeriMasukan" />
+        <activity android:name=".FragmentAkun" />
+        <activity android:name=".FragmentBantuan" />
+        <activity android:name=".FragmentHome" />
+        <activity android:name=".FragmentPesan" />
     </application>
 
 </manifest>

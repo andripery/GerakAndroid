@@ -61,6 +61,7 @@
         android:textColor="#374E4E"
         android:fontFamily="@font/pmedium"
         android:background="@drawable/transparent"
+        android:onClick="loginAccount"
         />
 
     <Button

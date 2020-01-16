@@ -51,6 +51,7 @@
         android:textColor="#ffffff"
         android:fontFamily="@font/pmedium"
         android:background="@drawable/getstarted_bgbutton"
+        android:onClick="home"
         />
 
     <EditText

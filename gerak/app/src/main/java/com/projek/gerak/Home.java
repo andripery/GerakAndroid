@@ -25,9 +25,11 @@ public class Home extends AppCompatActivity {
         final ImageButton home = (ImageButton) findViewById(R.id.btnHome);
         final ImageButton pesan = (ImageButton) findViewById(R.id.btnChat);
         final ImageButton bantuan = (ImageButton) findViewById(R.id.btnHelp);
+        final ImageButton akun = (ImageButton) findViewById(R.id.btnAkun);
         final TextView tvHome = (TextView) findViewById(R.id.txtHome);
         final TextView tvPesan = (TextView) findViewById(R.id.txtChat);
         final TextView tvBantuan = (TextView) findViewById(R.id.txtHelp);
+        final TextView tvAkun = (TextView) findViewById(R.id.txtAkun);
 
         loadFragment(new FragmentHome());
 
@@ -41,6 +43,8 @@ public class Home extends AppCompatActivity {
                 pesan.setBackgroundResource(R.drawable.ic_chat);
                 tvBantuan.setTextColor(Color.parseColor("#A5A5A5"));
                 bantuan.setBackgroundResource(R.drawable.ic_help);
+                tvAkun.setTextColor(Color.parseColor("#A5A5A5"));
+                akun.setBackgroundResource(R.drawable.ic_akun);
             }
         });
 
@@ -54,6 +58,8 @@ public class Home extends AppCompatActivity {
                 pesan.setBackgroundResource(R.drawable.ic_chat_active);
                 tvBantuan.setTextColor(Color.parseColor("#A5A5A5"));
                 bantuan.setBackgroundResource(R.drawable.ic_help);
+                tvAkun.setTextColor(Color.parseColor("#A5A5A5"));
+                akun.setBackgroundResource(R.drawable.ic_akun);
             }
         });
 
@@ -67,45 +73,65 @@ public class Home extends AppCompatActivity {
                 pesan.setBackgroundResource(R.drawable.ic_chat);
                 tvBantuan.setTextColor(Color.parseColor("#374E4E"));
                 bantuan.setBackgroundResource(R.drawable.ic_help_active);
+                tvAkun.setTextColor(Color.parseColor("#A5A5A5"));
+                akun.setBackgroundResource(R.drawable.ic_akun);
             }
         });
 
-        final ImageButton profile = (ImageButton) findViewById(R.id.btnProfile_home);
-//        final DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-//
-//        profile.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                drawer.openDrawer(GravityCompat.START);
-//            }
-//        });
-
+        akun.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadFragment(new FragmentAkun());
+                tvHome.setTextColor(Color.parseColor("#A5A5A5"));
+                home.setBackgroundResource(R.drawable.ic_home_mute);
+                tvPesan.setTextColor(Color.parseColor("#A5A5A5"));
+                pesan.setBackgroundResource(R.drawable.ic_chat);
+                tvBantuan.setTextColor(Color.parseColor("#A5A5A5"));
+                bantuan.setBackgroundResource(R.drawable.ic_help);
+                tvAkun.setTextColor(Color.parseColor("#374E4E"));
+                akun.setBackgroundResource(R.drawable.ic_akun_active);
+            }
+        });
     }
 
-    private void loadFragment(Fragment fragment){
+    private void loadFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.layout, fragment);
         fragmentTransaction.commit();
     }
 
+    public void berimasukan(View view) {
+        Intent intent = new Intent(getApplicationContext(), BeriMasukan.class);
+        startActivity(intent);
+    }
 
-    public void keahlian(View view){
+    public void keahlian(View view) {
         Intent intent = new Intent(getApplicationContext(), Keahlian.class);
         startActivity(intent);
     }
 
-    public void pesan(View view){
+    public void titip(View view) {
+        Intent intent = new Intent(getApplicationContext(), Titip.class);
+        startActivity(intent);
+    }
+
+    public void belanja(View view) {
+        Intent intent = new Intent(getApplicationContext(), Belanja.class);
+        startActivity(intent);
+    }
+
+    public void pesan(View view) {
         Intent intent = new Intent(getApplicationContext(), Pesan.class);
         startActivity(intent);
     }
 
-    public void bantuan(View view){
+    public void bantuan(View view) {
         Intent intent = new Intent(getApplicationContext(), Bantuan.class);
         startActivity(intent);
     }
 
-    public void akun(View view){
+    public void akun(View view) {
         Intent intent = new Intent(getApplicationContext(), Akun.class);
         startActivity(intent);
     }

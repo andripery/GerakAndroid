@@ -6,12 +6,12 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Keahlian extends AppCompatActivity  {
+public class Titip extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.keahlian);
+        setContentView(R.layout.titip);
     }
 
     public void home(View view){
