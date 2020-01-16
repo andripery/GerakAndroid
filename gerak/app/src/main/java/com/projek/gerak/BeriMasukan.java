@@ -16,6 +16,7 @@ public class BeriMasukan extends AppCompatActivity {
 
     public void home(View view){
         Intent intent = new Intent(getApplicationContext(), Home.class);
+        intent.putExtra("menu", "akun");
         startActivity(intent);
     }
 }

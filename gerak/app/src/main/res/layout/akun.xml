@@ -249,6 +249,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="24dp"
         android:background="@drawable/ic_exit_profile"
+        android:onClick="logoutAlert"
         />
 
     <TextView
@@ -273,6 +274,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="24dp"
         android:layout_marginTop="26dp"
+        android:onClick="logoutAlert"
         />
 
     <ImageView

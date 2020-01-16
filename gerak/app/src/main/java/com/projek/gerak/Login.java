@@ -85,7 +85,9 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         writeNewUser(user.getUid(), username, user.getEmail());
 
         // Go to MainActivity
-        startActivity(new Intent(Login.this, Home.class));
+        Intent i = new Intent(Login.this,Home.class);
+        i.putExtra("menu", "home");
+        startActivity(i);
         finish();
     }
 
@@ -126,7 +128,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     private void writeNewUser(String userId, String name, String email) {
         User user = new User(name, email);
 
-        mDatabase.child("admins").child(userId).setValue(user);
+        mDatabase.child("user").child(userId).setValue(user);
     }
 
     public void home(View view) {

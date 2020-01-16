@@ -32,7 +32,7 @@
         android:layout_below="@+id/txt1Daftar1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
-        android:text="Enter your mobile number, we will approve \nyour number to verify now"
+        android:text="Enter your profile, we will approve \nyour account to verify now"
         android:textSize="12dp"
         android:textAlignment="center"
         android:fontFamily="@font/pmedium"
@@ -45,7 +45,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="36dp"
-        android:text="Continue"
+        android:text="Create Account"
         android:textAllCaps="false"
         android:textSize="16dp"
         android:textColor="#ffffff"
@@ -54,7 +54,7 @@
         />
 
     <EditText
-        android:id="@+id/tbNope"
+        android:id="@+id/tbPass"
         android:layout_width="304dp"
         android:layout_height="49dp"
         android:layout_above="@id/btnContinue_daftar1"
@@ -70,7 +70,7 @@
         android:id="@+id/tbEmail"
         android:layout_width="304dp"
         android:layout_height="49dp"
-        android:layout_above="@id/tbNope"
+        android:layout_above="@id/tbPass"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="12dp"
         android:background="@drawable/edittext_daftar1"
@@ -79,16 +79,16 @@
         android:textSize="16dp"
         />
 
-    <EditText
-        android:id="@+id/tbNama"
-        android:layout_width="304dp"
-        android:layout_height="49dp"
-        android:layout_above="@id/tbEmail"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="12dp"
-        android:background="@drawable/edittext_daftar1"
-        android:hint="Nama Lengkap"
-        android:paddingLeft="12dp"
-        android:textSize="16dp"
-        />
+<!--    <EditText-->
+<!--        android:id="@+id/tbNama"-->
+<!--        android:layout_width="304dp"-->
+<!--        android:layout_height="49dp"-->
+<!--        android:layout_above="@id/tbEmail"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="12dp"-->
+<!--        android:background="@drawable/edittext_daftar1"-->
+<!--        android:hint="Nama Lengkap"-->
+<!--        android:paddingLeft="12dp"-->
+<!--        android:textSize="16dp"-->
+<!--        />-->
 </RelativeLayout>

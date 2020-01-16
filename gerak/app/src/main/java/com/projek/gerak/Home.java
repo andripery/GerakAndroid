@@ -1,13 +1,17 @@
 package com.projek.gerak;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.media.Image;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -15,12 +19,24 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class Home extends AppCompatActivity {
+
+    private DatabaseReference mDatabase;
+    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+        mAuth = FirebaseAuth.getInstance();
+
+        TextView nama = (TextView) findViewById(R.id.txtNama_Home);
 
         final ImageButton home = (ImageButton) findViewById(R.id.btnHome);
         final ImageButton pesan = (ImageButton) findViewById(R.id.btnChat);
@@ -32,6 +48,23 @@ public class Home extends AppCompatActivity {
         final TextView tvAkun = (TextView) findViewById(R.id.txtAkun);
 
         loadFragment(new FragmentHome());
+
+        Bundle bundle = getIntent().getExtras();
+        String s = bundle.getString("menu");
+        if (s.equalsIgnoreCase("akun")){
+            loadFragment(new FragmentAkun());
+            tvHome.setTextColor(Color.parseColor("#A5A5A5"));
+            home.setBackgroundResource(R.drawable.ic_home_mute);
+            tvPesan.setTextColor(Color.parseColor("#A5A5A5"));
+            pesan.setBackgroundResource(R.drawable.ic_chat);
+            tvBantuan.setTextColor(Color.parseColor("#A5A5A5"));
+            bantuan.setBackgroundResource(R.drawable.ic_help);
+            tvAkun.setTextColor(Color.parseColor("#374E4E"));
+            akun.setBackgroundResource(R.drawable.ic_akun_active);
+        } else if (s.equalsIgnoreCase("home")){
+            loadFragment(new FragmentHome());
+        }
+
 
         home.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,6 +137,21 @@ public class Home extends AppCompatActivity {
     public void berimasukan(View view) {
         Intent intent = new Intent(getApplicationContext(), BeriMasukan.class);
         startActivity(intent);
+    }
+
+    public void logoutAlert(View view) {
+        LayoutInflater inflater = LayoutInflater.from(this);
+        View subView = inflater.inflate(R.layout.logout,null);
+
+        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setView(subView);
+        builder.create();
+        builder.show();
+
+    }
+
+    public void logout(View view) {
+        FirebaseAuth.getInstance().signOut();
     }
 
     public void keahlian(View view) {

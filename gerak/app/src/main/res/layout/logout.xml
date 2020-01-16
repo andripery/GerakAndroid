@@ -52,7 +52,7 @@
         android:textColor="#ffffff"
         android:fontFamily="@font/pmedium"
         android:background="@drawable/getstarted_bgbutton"
-        android:onClick="home"
+        android:onClick="logout"
         />
 
     <Button
@@ -69,7 +69,6 @@
         android:textSize="16dp"
         android:textColor="#374E4E"
         android:fontFamily="@font/pmedium"
-        android:onClick="home"
         />
 
 </RelativeLayout>
