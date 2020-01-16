@@ -61,12 +61,34 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp"
         android:background="@drawable/edittext_daftar1"
-        android:hint="No Handphone"
+        android:hint="Password"
         android:paddingLeft="12dp"
         android:textSize="16dp"
-        android:drawableLeft="@drawable/ic_benderadaftar1"
-        android:drawablePadding="12dp"
-
         />
 
+    <EditText
+        android:id="@+id/tbEmail"
+        android:layout_width="304dp"
+        android:layout_height="49dp"
+        android:layout_above="@id/tbNope"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittext_daftar1"
+        android:hint="Email"
+        android:paddingLeft="12dp"
+        android:textSize="16dp"
+        />
+
+    <EditText
+        android:id="@+id/tbNama"
+        android:layout_width="304dp"
+        android:layout_height="49dp"
+        android:layout_above="@id/tbEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittext_daftar1"
+        android:hint="Nama Lengkap"
+        android:paddingLeft="12dp"
+        android:textSize="16dp"
+        />
 </RelativeLayout>

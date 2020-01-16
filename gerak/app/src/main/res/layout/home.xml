@@ -47,7 +47,144 @@
         android:layout_marginTop="160dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/bg_dompetgerak_home"
-        />
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="Vera Kartina Kumala"
+            android:textSize="14dp"
+            android:fontFamily="@font/pmedium"
+            android:textColor="#666666"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="Rp 1.000.000"
+            android:textSize="14dp"
+            android:fontFamily="@font/pmedium"
+            android:textColor="#333333"
+            />
+
+        <ImageView
+            android:id="@+id/garis_dompetgerak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_garis_home"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="44.5dp"
+            />
+                                                                            <!--Kirim Dompet Gerak-->
+        <ImageButton
+            android:id="@+id/btnKirim_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/garis_dompetgerak"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/ic_send_home"
+            />
+        <TextView
+            android:id="@+id/txtKirim_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnKirim_home"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="35dp"
+            android:text="Kirim"
+            android:textSize="12dp"
+            android:textColor="#333333"
+            android:fontFamily="@font/pmedium"
+            />
+                                                                            <!--Bayar Dompet Gerak-->
+        <ImageButton
+            android:id="@+id/btnBayar_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/garis_dompetgerak"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="107dp"
+            android:background="@drawable/ic_pay_home"
+            />
+        <TextView
+            android:id="@+id/txtBayar_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnKirim_home"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="105dp"
+            android:text="Bayar"
+            android:textSize="12dp"
+            android:textColor="#333333"
+            android:fontFamily="@font/pmedium"
+            />
+
+                                                                            <!--Promo Dompet Gerak-->
+        <ImageButton
+            android:id="@+id/btnPromoDompet_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/garis_dompetgerak"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="185dp"
+            android:background="@drawable/ic_promodompet_home"
+            />
+        <TextView
+            android:id="@+id/txtPromoDompet_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnKirim_home"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="187dp"
+            android:text="Promo"
+            android:textSize="12dp"
+            android:textColor="#333333"
+            android:fontFamily="@font/pmedium"
+            />
+
+                                                                            <!--Top up Dompet Gerak-->
+        <ImageButton
+            android:id="@+id/btnIsi_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/garis_dompetgerak"
+            android:layout_marginTop="34.5dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/ic_topup_home"
+            />
+        <TextView
+            android:id="@+id/txtIsi_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnKirim_home"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="43dp"
+            android:text="Isi"
+            android:textSize="12dp"
+            android:textColor="#333333"
+            android:fontFamily="@font/pmedium"
+            />
+
+
+
+    </RelativeLayout>
     <!-- Tutup Layout Dompet Gerak-->
 
     <!--Menu Gerak Bagian Atas-->
