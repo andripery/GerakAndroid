@@ -10,7 +10,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="231dp"
         android:layout_centerHorizontal="true"
-        android:hint="Vera Kartika Kumala"
+        android:textAlignment="center"
         android:textColorHint="#323132"
         android:textSize="21dp"
         android:fontFamily="@font/psemibold"

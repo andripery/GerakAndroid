@@ -57,7 +57,7 @@
             android:layout_marginTop="12dp"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="20dp"
-            android:text="Vera Kartina Kumala"
+            android:text=""
             android:textSize="14dp"
             android:fontFamily="@font/pmedium"
             android:textColor="#666666"

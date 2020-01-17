@@ -16,6 +16,7 @@ public class Pesan extends AppCompatActivity {
 
     public void home(View view){
         Intent intent = new Intent(getApplicationContext(), Home.class);
+        intent.putExtra("menu", "home");
         startActivity(intent);
     }
 
