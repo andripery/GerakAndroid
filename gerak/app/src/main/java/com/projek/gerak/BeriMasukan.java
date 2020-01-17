@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -60,6 +61,9 @@ public class BeriMasukan extends AppCompatActivity {
         Masukan masukan = new Masukan(username, saran);
         mDataRef = mDatabase.getReference().child("masukan").child(userId).push();
         mDataRef.setValue(masukan);
+
+        Toast.makeText(BeriMasukan.this, "Berhasil beri masukan",
+                Toast.LENGTH_SHORT).show();
 
         Intent i = new Intent(BeriMasukan.this,Home.class);
         i.putExtra("menu", "akun");

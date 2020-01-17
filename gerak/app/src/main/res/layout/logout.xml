@@ -52,7 +52,7 @@
         android:textColor="#ffffff"
         android:fontFamily="@font/pmedium"
         android:background="@drawable/getstarted_bgbutton"
-        android:onClick="logout"
+        android:onClick="keluar"
         />
 
     <Button

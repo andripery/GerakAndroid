@@ -214,7 +214,6 @@
         android:layout_width="304dp"
         android:layout_height="49dp"
         android:layout_above="@id/btnBatal_keahlian"
-        android:layout_below="@+id/waktu_keahlian"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="122dp"
         android:layout_marginBottom="24dp"

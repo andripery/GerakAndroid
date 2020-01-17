@@ -74,7 +74,7 @@ public class Home extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
         String s = bundle.getString("menu");
-        if (s.equalsIgnoreCase("akun")){
+        if (s.equalsIgnoreCase("akun")) {
             loadFragment(new FragmentAkun());
             tvHome.setTextColor(Color.parseColor("#A5A5A5"));
             home.setBackgroundResource(R.drawable.ic_home_mute);
@@ -84,7 +84,7 @@ public class Home extends AppCompatActivity {
             bantuan.setBackgroundResource(R.drawable.ic_help);
             tvAkun.setTextColor(Color.parseColor("#374E4E"));
             akun.setBackgroundResource(R.drawable.ic_akun_active);
-        } else if (s.equalsIgnoreCase("home")){
+        } else if (s.equalsIgnoreCase("home")) {
             loadFragment(new FragmentHome());
         }
 
@@ -164,7 +164,7 @@ public class Home extends AppCompatActivity {
 
     public void logoutAlert(View view) {
         LayoutInflater inflater = LayoutInflater.from(this);
-        View subView = inflater.inflate(R.layout.logout,null);
+        View subView = inflater.inflate(R.layout.logout, null);
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setView(subView);
@@ -173,8 +173,11 @@ public class Home extends AppCompatActivity {
 
     }
 
-    public void logout(View view) {
+    public void keluar(View view) {
         FirebaseAuth.getInstance().signOut();
+        finishAffinity();
+        System.exit(0);
+
     }
 
     public void keahlian(View view) {

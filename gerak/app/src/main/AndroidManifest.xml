@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Bantuan" />
+        <activity android:name=".Promo" />
         <activity android:name=".Login" />
         <activity android:name=".Daftar" />
         <activity android:name=".Home" />
