@@ -1,4 +1,4 @@
-package com.projek.gerak;
+package com.projek.gerak.Table;
 
 import com.google.firebase.database.IgnoreExtraProperties;
 

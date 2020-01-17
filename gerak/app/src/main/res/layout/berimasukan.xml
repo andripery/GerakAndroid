@@ -85,6 +85,7 @@
         android:textSize="16dp"
         android:textColor="#ffffff"
         android:fontFamily="@font/pmedium"
+        android:onClick="insertMasukanClick"
         />
 
 </RelativeLayout>

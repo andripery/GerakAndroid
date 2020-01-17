@@ -143,6 +143,7 @@
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="185dp"
             android:background="@drawable/ic_promodompet_home"
+            android:onClick="promo"
             />
         <TextView
             android:id="@+id/txtPromoDompet_home"

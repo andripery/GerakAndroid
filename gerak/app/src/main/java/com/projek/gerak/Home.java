@@ -192,6 +192,11 @@ public class Home extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void promo(View view) {
+        Intent intent = new Intent(getApplicationContext(), Promo.class);
+        startActivity(intent);
+    }
+
     public void pesan(View view) {
         Intent intent = new Intent(getApplicationContext(), Pesan.class);
         startActivity(intent);
