@@ -128,6 +128,7 @@
 
     <!--Layout Waktu-->
     <RelativeLayout
+        android:id="@+id/waktu_keahlian"
         android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/layout_keahlian_keahlian"
@@ -213,15 +214,16 @@
         android:layout_width="304dp"
         android:layout_height="49dp"
         android:layout_above="@id/btnBatal_keahlian"
-        android:background="@drawable/getstarted_bgbutton"
-        android:layout_marginBottom="24dp"
+        android:layout_below="@+id/waktu_keahlian"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/getstarted_bgbutton"
+        android:fontFamily="@font/pmedium"
         android:text="Posting"
         android:textAllCaps="false"
-        android:textSize="16dp"
         android:textColor="#ffffff"
-        android:fontFamily="@font/pmedium"
-        />
+        android:textSize="16dp" />
 
 
 <!--</ScrollView>-->
