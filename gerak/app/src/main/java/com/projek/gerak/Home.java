@@ -177,7 +177,6 @@ public class Home extends AppCompatActivity {
         FirebaseAuth.getInstance().signOut();
         finishAffinity();
         System.exit(0);
-
     }
 
     public void keahlian(View view) {

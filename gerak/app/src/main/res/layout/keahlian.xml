@@ -69,6 +69,7 @@
             />
 
         <EditText
+            android:id="@+id/tbDeskripsiKeahlian"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/tbJudul_keahlian"
@@ -222,7 +223,8 @@
         android:text="Posting"
         android:textAllCaps="false"
         android:textColor="#ffffff"
-        android:textSize="16dp" />
+        android:textSize="16dp"
+        android:onClick="insertKeahlianClick"/>
 
 
 <!--</ScrollView>-->
