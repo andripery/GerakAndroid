@@ -55,6 +55,7 @@
 
     <EditText
         android:id="@+id/tbPass"
+        android:inputType="textPassword"
         android:layout_width="304dp"
         android:layout_height="49dp"
         android:layout_above="@id/btnContinue_daftar1"
@@ -68,6 +69,7 @@
 
     <EditText
         android:id="@+id/tbEmail"
+        android:inputType="textEmailAddress"
         android:layout_width="304dp"
         android:layout_height="49dp"
         android:layout_above="@id/tbPass"

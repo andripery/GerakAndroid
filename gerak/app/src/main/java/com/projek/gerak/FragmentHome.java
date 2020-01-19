@@ -26,16 +26,18 @@ public class FragmentHome extends Fragment {
     private String userKey;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         LayoutInflater lf = getActivity().getLayoutInflater();
-        final View view =  lf.inflate(R.layout.home, container, false);
+        final View view = lf.inflate(R.layout.home, container, false);
 
         mAuth = FirebaseAuth.getInstance();
         mDatabase = FirebaseDatabase.getInstance();
         mDataRef = mDatabase.getReference();
         FirebaseUser user = mAuth.getCurrentUser();
-        userKey = user.getUid();
+        if (user != null) {
+            userKey = user.getUid();
+        }
 
         mDataRef.child("user").child(userKey).addValueEventListener(new ValueEventListener() {
             @Override
@@ -43,11 +45,12 @@ public class FragmentHome extends Fragment {
                 String username = dataSnapshot.child("username").getValue(String.class);
                 Log.d(TAG, "Name: " + username);
                 TextView nama = (TextView) view.findViewById(R.id.txtNama_Home);
-                nama.setText("Hi, "+ username);
+                nama.setText("Hi, " + username);
             }
 
             @Override
-            public void onCancelled(DatabaseError databaseError) {}
+            public void onCancelled(DatabaseError databaseError) {
+            }
         });
 
         return view;

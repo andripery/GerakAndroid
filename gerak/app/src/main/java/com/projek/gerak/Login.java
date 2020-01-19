@@ -82,11 +82,11 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     private void onAuthSuccess(FirebaseUser user) {
         String username = usernameFromEmail(user.getEmail());
 
-        // membuat User baru
-        writeNewUser(user.getUid(), username, user.getEmail());
+        Toast.makeText(Login.this, "Login berhasil",
+                Toast.LENGTH_SHORT).show();
 
         // Go to MainActivity
-        Intent i = new Intent(Login.this,Home.class);
+        Intent i = new Intent(Login.this, Home.class);
         i.putExtra("menu", "home");
         startActivity(i);
         finish();
