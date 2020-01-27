@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+    <TextView
+        android:id="@+id/txtdaftar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Daftar Sekarang"
+        android:textSize="21dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/ppsemibold"
+        android:textColor="@color/font"
+        />
+
+    <TextView
+        android:id="@+id/txtdaftar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtdaftar1"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Daftarkan dirimu dan mulailah \nmenjadi bagian dari gerak freelancer"
+        android:textSize="13dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/ppregular"
+        android:textColor="@color/font"
+        />
+
+    <EditText
+        android:id="@+id/edtNama"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtdaftar2"
+        android:layout_marginTop="40dp"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Nama Lengkap"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppregular"
+        android:background="@drawable/textbox"
+        />
+
+    <EditText
+        android:id="@+id/edtKota"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtNama"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Kota"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppregular"
+        android:background="@drawable/textbox"
+        />
+
+    <EditText
+        android:id="@+id/edtAlamat"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtKota"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Alamat"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppregular"
+        android:background="@drawable/textbox"
+        />
+
+    <EditText
+        android:id="@+id/edtNope"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtAlamat"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Nomor Telepon"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppregular"
+        android:background="@drawable/textbox"
+        />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtNope"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Email"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppregular"
+        android:background="@drawable/textbox"
+        />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtEmail"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Password"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppregular"
+        android:background="@drawable/textbox"
+        />
+
+    <Button
+        android:id="@+id/btnDaftar"
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/edtPass"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:text="Daftar"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/ppsemibold"
+        android:textColor="@color/fontwhite"
+        />
+
+    <TextView
+        android:id="@+id/btnMasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDaftar"
+        android:layout_marginTop="24dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Masuk disini"
+        android:textSize="17dp"
+        android:fontFamily="@font/ppmedium"
+        android:textColor="@color/fonthijau"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+    <TextView
+        android:id="@+id/txtlogin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Selamat Datang \nFreelancer Gerak"
+        android:textSize="21dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/ppsemibold"
+        android:textColor="@color/font"
+        />
+
+    <TextView
+        android:id="@+id/txtlogin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtlogin1"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Lakukanlah yang terbaik untuk customermu. \nMereka membutuhkankeahlianmu."
+        android:textSize="13dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/ppregular"
+        android:textColor="@color/font"
+        />
+
+    <ImageView
+        android:id="@+id/imglogin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtlogin2"
+        android:layout_marginTop="36dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_login"
+        />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/imglogin1"
+        android:layout_marginTop="40dp"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Email"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppregular"
+        android:background="@drawable/textbox"
+        />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtEmail"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppregular"
+        android:background="@drawable/textbox"
+        />
+
+    <Button
+        android:id="@+id/btnMasuk"
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/edtPass"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:text="Masuk"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/ppsemibold"
+        android:textColor="@color/fontwhite"
+        />
+
+    <TextView
+        android:id="@+id/btnDaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnMasuk"
+        android:layout_marginTop="24dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Daftar sekarang"
+        android:textSize="17dp"
+        android:fontFamily="@font/ppmedium"
+        android:textColor="@color/fonthijau"
+        />
+
+
+
+</RelativeLayout>
