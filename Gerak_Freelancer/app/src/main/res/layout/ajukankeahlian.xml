@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+    <TextView
+        android:id="@+id/txtdaftar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Ajukan Keahlianmu"
+        android:textSize="21dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/ppsemibold"
+        android:textColor="@color/font"
+        />
+
+    <TextView
+        android:id="@+id/txtdaftar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtdaftar1"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Ajukanlah keahlian kamu sesuai dengan \nyang kamu kuasain, semakin ahli kamu, \nsemakin banyak client datang."
+        android:textSize="13dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/ppregular"
+        android:textColor="@color/font"
+        />
+
+    <EditText
+        android:id="@+id/edtNama"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtdaftar2"
+        android:layout_marginTop="40dp"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Nama Lengkap"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppregular"
+        android:background="@drawable/textbox"
+        />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtNama"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Email"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppregular"
+        android:background="@drawable/textbox"
+        />
+
+
+    //Pilih Keahlian
+    <Spinner
+        android:id="@+id/spinAjukanKeahlian"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtEmail"
+        android:layout_marginTop="16dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/layoutktp"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/spinAjukanKeahlian"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:text="Upload Foto KTP"
+            android:textSize="15dp"
+            android:fontFamily="@font/ppregular"
+            />
+
+        <Button
+            android:id="@+id/btnUploadKTP"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="Upload"
+            android:textColor="@color/font"
+            android:padding="12dp"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/ppmedium"
+            android:background="@drawable/buttonupload"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutportofolio"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/layoutktp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:text="Upload Portofolio"
+            android:textSize="15dp"
+            android:fontFamily="@font/ppregular"
+            />
+
+        <Button
+            android:id="@+id/btnUploadPortofolio"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="Upload"
+            android:textColor="@color/font"
+            android:padding="12dp"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/ppmedium"
+            android:background="@drawable/buttonupload"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutCV"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/layoutportofolio"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:text="Upload Curriculum Vitae"
+            android:textSize="15dp"
+            android:fontFamily="@font/ppregular"
+            />
+
+        <Button
+            android:id="@+id/btnUploadCV"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="Upload"
+            android:textColor="@color/font"
+            android:padding="12dp"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/ppmedium"
+            android:background="@drawable/buttonupload"
+            />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnAjukanKeahlian"
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/layoutCV"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:text="Ajukan Keahlian"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/ppsemibold"
+        android:textColor="@color/fontwhite"
+        />
+
+    <TextView
+        android:id="@+id/btnBatal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAjukanKeahlian"
+        android:layout_marginTop="24dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Batak"
+        android:textSize="17dp"
+        android:fontFamily="@font/ppmedium"
+        android:textColor="@color/fonthijau"
+        />
+
+</RelativeLayout>
