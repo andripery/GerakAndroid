@@ -1,7 +1,10 @@
 package com.projek.gerak;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -31,13 +34,17 @@ import com.google.firebase.database.ValueEventListener;
 import com.projek.gerak.Table.Masukan;
 import com.projek.gerak.Table.User;
 
+import java.io.IOException;
+
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class Akun extends AppCompatActivity {
 
     private static final String TAG = "LoginActivity";
     private FirebaseAuth mAuth = FirebaseAuth.getInstance();
     private FirebaseDatabase mDatabase = FirebaseDatabase.getInstance();
     private DatabaseReference mDataRef = mDatabase.getReference();
-    private FirebaseUser firebaseUser= mAuth.getCurrentUser();
+    private FirebaseUser firebaseUser = mAuth.getCurrentUser();
     private String userKey = firebaseUser.getUid();
     private EditText edtNama;
     private EditText edtNope;
@@ -159,25 +166,27 @@ public class Akun extends AppCompatActivity {
 //                    }
 //                });
 
-        firebaseUser.reauthenticate(credential)
-                .addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
-                        Log.d(TAG, "User re-authenticated.");
-                        //Now change your email address \\
-                        //----------------Code for Changing Email Address----------\\
-                        firebaseUser.updatePassword(userPass)
-                                .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                    @Override
-                                    public void onComplete(@NonNull Task<Void> task) {
-                                        if (task.isSuccessful()) {
-                                            Log.d(TAG, "User password updated.");
+        if (userPass != null) {
+            firebaseUser.reauthenticate(credential)
+                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                        @Override
+                        public void onComplete(@NonNull Task<Void> task) {
+                            Log.d(TAG, "User re-authenticated.");
+                            //Now change your email address \\
+                            //----------------Code for Changing Email Address----------\\
+                            firebaseUser.updatePassword(userPass)
+                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            if (task.isSuccessful()) {
+                                                Log.d(TAG, "User password updated.");
+                                            }
                                         }
-                                    }
-                                });
-                        //----------------------------------------------------------\\
-                    }
-                });
+                                    });
+                            //----------------------------------------------------------\\
+                        }
+                    });
+        }
 
 //        mAuth.signInWithEmailAndPassword(email, password)
 //                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
