@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <!--Layout Navigasi-->
+    <RelativeLayout
+        android:id="@+id/relativelayout3_home"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/bgcolor">
+
+        <ImageButton
+            android:id="@+id/btnChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_chat"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_home"
+            android:layout_centerHorizontal="true"
+            android:layout_toStartOf="@+id/btnChat"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="80dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btnProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_account"
+            android:layout_centerHorizontal="true"
+            android:layout_toEndOf="@+id/btnChat"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="80dp"
+            />
+
+    </RelativeLayout>
+    <!--Tutup Layout Navigasi-->
+</RelativeLayout>

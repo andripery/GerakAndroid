@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="@drawable/gambar_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        />
+
+    <TextView
+        android:id="@id/edtNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Hai, Andrian"
+        android:textSize="24dp"
+        android:fontFamily="@font/ppsemibold"
+        android:textColor="@color/font"
+        />
+
+    <RelativeLayout
+        android:layout_width="104dp"
+        android:layout_height="87dp"
+        android:layout_below="@id/edtNama"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lytpekerjaan"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutKeahlian"
+        android:layout_width="104dp"
+        android:layout_height="87dp"
+        android:layout_below="@id/edtNama"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lytkeahlian"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="104dp"
+        android:layout_height="87dp"
+        android:layout_below="@id/edtNama"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lytrating"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp">
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutKeahlian"
+        android:layout_marginTop="40dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_line"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutKeahlian"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="42dp"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/ic_arrow"
+        />
+
+    <TextView
+        android:id="@+id/akunSaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutKeahlian"
+        android:layout_marginTop="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:text="Akun saya"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppmedium"
+        android:textColor="@color/font"
+        />
+
+    <TextView
+        android:id="@+id/penghasilan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/akunSaya"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:text="Penghasilan"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppmedium"
+        android:textColor="@color/font"
+        />
+
+    <TextView
+        android:id="@+id/tambahKeahlian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/penghasilan"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:text="Tambah keahlian"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppmedium"
+        android:textColor="@color/font"
+        />
+
+    <TextView
+        android:id="@+id/beriMasukan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tambahKeahlian"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:text="Beri Masukan"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppmedium"
+        android:textColor="@color/font"
+        />
+
+    <TextView
+        android:id="@+id/pengaturan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/beriMasukan"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:text="Pengaturan"
+        android:textSize="15dp"
+        android:fontFamily="@font/ppmedium"
+        android:textColor="@color/font"
+        />
+
+    <TextView
+        android:id="@+id/keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pengaturan"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:text="Keluar"
+        android:textSize="15dp"
+        android:textColor="@color/fonthijau"
+        android:fontFamily="@font/ppmedium"
+        />
+
+</RelativeLayout>
