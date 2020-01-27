@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="570c13b7-d7c0-4f7a-89c2-09e99ff34e87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_account_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_bg_nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_chat_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_home_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_profile1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_profile2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-hdpi/ic_profile3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_account_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_bg_nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_chat_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_home_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_profile1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_profile2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-ldpi/ic_profile3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_account_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_bg_nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_chat_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_home_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_profile1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_profile2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-mdpi/ic_profile3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_account_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_bg_nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_chat_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_home_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_profile1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_profile2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xhdpi/ic_profile3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_account_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_bg_nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_chat_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_home_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_profile1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_profile2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxhdpi/ic_profile3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_account_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_bg_nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_chat_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_home_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_profile1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_profile2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable-xxxhdpi/ic_profile3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable/button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/drawable/textbox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/font/ppbold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/font/ppmedium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/font/ppregular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/font/ppsemibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/layout/daftar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/layout/login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gerak_Freelancer/app/src/main/res/layout/menu.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-135" />
+    <option name="y" value="64" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GerakAndroidBased" type="1abcf292:AndroidViewProjectNode" />
+              <item name="GerakAndroidBased" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="GerakAndroidBased" type="1abcf292:AndroidViewProjectNode" />
+              <item name="GerakAndroidBased" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="GerakAndroidBased" type="1abcf292:AndroidViewProjectNode" />
+              <item name="GerakAndroidBased" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GerakAndroidBased" type="1abcf292:AndroidViewProjectNode" />
+              <item name="GerakAndroidBased" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GerakAndroidBased" type="1abcf292:AndroidViewProjectNode" />
+              <item name="GerakAndroidBased" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GerakAndroidBased" type="1abcf292:AndroidViewProjectNode" />
+              <item name="GerakAndroidBased" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GerakAndroidBased" type="1abcf292:AndroidViewProjectNode" />
+              <item name="GerakAndroidBased" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GerakAndroidBased" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gerak" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="570c13b7-d7c0-4f7a-89c2-09e99ff34e87" name="Default Changelist" comment="" />
+      <created>1578481334129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578481334129</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.33509833" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Find" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="TODO" order="1" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android-Gradle|GerakAndroidBased</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
